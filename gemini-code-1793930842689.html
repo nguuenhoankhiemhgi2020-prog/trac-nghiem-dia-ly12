@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Tập Địa Lý Việt Nam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .selected-option {
+            background-color: #dbeafe !important;
+            border-color: #2563eb !important;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen pb-12 font-sans antialiased text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-blue-700 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div>
+                <h1 class="text-xl sm:text-2xl font-bold">ÔN TẬP ĐỊA LÝ VIỆT NAM</h1>
+                <p class="text-xs sm:text-sm text-blue-100">Phần I: Trắc nghiệm (18 câu) & Phần II: Tính toán (6 câu)</p>
+            </div>
+            <div id="timer" class="bg-blue-800 px-4 py-2 rounded-lg font-mono font-bold text-lg border border-blue-600">
+                00:00
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 pt-6 space-y-8">
+        
+        <!-- Instruction Banner -->
+        <div class="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200">
+            <h2 class="text-lg font-bold text-gray-900 mb-2">Hướng dẫn làm bài:</h2>
+            <ul class="list-disc list-inside text-base text-gray-700 space-y-
